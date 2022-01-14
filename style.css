@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-weight: 300;
+
+}
+
+/* Nav Bar */
+.nav-container {
+    background-color: rgb(83, 83, 83);
+}
+
+.nav {
+    width: 50%;
+    height: 65px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav h1 {
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.login button {
+    width: 75px;
+    height: 25px;
+    background-color: #17A2B8;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
+
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    margin-right: 20px;
+    flex: 2;
+}
+
+.col-2 {
+    margin-left: 10px;
+    flex: 1;
+
+}
+
+#main-wrapper {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+
+}
+
+/* User Card */
+.user-container, .requestBox {
+    width: 100%;
+    margin: 40px 0;
+    border: 2px solid darkgray;
+}
+
+.topBanner {
+    height: 30%;
+    margin-bottom: 40px;
+    background-color: #17A2B8;
+}
+
+.profile img {
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.card-main {
+    padding: 20px;
+}
+
+.userName {
+    font-size: 24px;
+}
+
+.location {
+    display: flex;
+}
+
+.location img {
+    width: 10px;
+    height: auto;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+.location p {
+    margin-top: 5px;
+}
+
+.bio {
+    margin: 10px 0;
+}
+
+.settings img {
+    width: 15px;
+}
+
+.settings a {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #17A2B8;
+}
+
+/* Request Box */
+
+.reqBanner {
+    height: 20%;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.reqMain {
+  padding: 5px;
+}
+.user-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin: 15px 5px;
+}
+
+.user-info, .confirmation  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.userIcon  {
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reqCircles {
+    height: 35px;
+    margin-right: 5px;
+}
+/* Education Box */
+
+.education {
+    width: 100%;
+    margin: 40px 0;
+    border: 2px solid darkgray; 
+}
+
+/* Connections */
+
+.connections {
+    width: 100%;
+    margin: 40px 0;
+    border: 2px solid darkgray; 
+}
+
+
